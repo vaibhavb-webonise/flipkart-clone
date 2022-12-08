@@ -1,0 +1,32 @@
+.category {
+	height: 100px;
+	border-bottom: 1px solid rgb(212, 212, 212);
+	display: flex;
+	justify-content: space-evenly;
+    max-width:1500px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    background-color: #fff;
+}
+
+.category-container {
+    flex: 1;
+    min-width: 100px;
+}
+.category-container:hover{
+    transform:scale(1.05);
+    cursor: pointer;
+}
+.category-image-wrapper{
+    height: 80%;
+}
+
+.category-image-wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.category-title{
+    text-align: center;
+}

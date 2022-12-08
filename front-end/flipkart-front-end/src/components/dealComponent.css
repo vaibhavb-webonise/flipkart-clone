@@ -1,0 +1,39 @@
+.deal {
+	width: 95%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	cursor: pointer;
+
+}
+
+.deal .image-container {
+	height: 50%;
+	width: 100%;
+	border:none;
+}
+
+.image-container img {
+	height: 100%;
+	width: 100%;
+	object-fit: fill;
+}
+.deal-title {
+	font-size: 14px;
+	font-weight: 500;
+	text-align: center;
+}
+.deal-offer {
+	text-align: center;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.deal-description {
+	text-align: center;
+	font-size: 16px;
+	font-weight: 400;
+	color: #413d3d;
+	margin-bottom: 10px;
+}

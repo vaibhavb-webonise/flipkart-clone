@@ -1,0 +1,64 @@
+.deal-of-the-day {
+	width: 100%;
+}
+
+.deal-container {
+	padding: 10px;
+	height: 354px;
+}
+.deal-wrapper {
+	height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.deal-slider {
+	height: 100%;
+    flex: 1;
+    margin-right: 10px;
+    background:#fff;
+}
+
+.deal-slider-title {
+	height: 18%;
+	border-bottom: 1px solid #f1f3f6;;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 15px;
+    width: calc(100vw - 320px);
+}
+
+.title-and-timer {
+	display: flex;
+	align-items: center;
+}
+.title-and-timer .title {
+	font-size: 22px;
+	font-weight: 500;
+	margin-right: 30px;
+}
+.title-and-timer .timer {
+    display: flex;
+    margin-top: 5px;
+    align-items: center;
+}
+.timer-icon {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.time-left{
+    color: rgb(127, 127, 127);
+    font-size: 16px;
+    word-spacing: 2px;
+    letter-spacing: 0.5px;
+}
+.deal-slider-slider{
+    height: 81%;
+    background:pink;
+}

@@ -1,0 +1,79 @@
+.header {
+	height: 60px;
+	background: #2874f0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.header-content-group {
+	display: flex;
+	align-items: center;
+	width: 80%;
+}
+
+.logo-wrapper {
+	width: 75px;
+	margin-right: 10px;
+	object-fit: contain;
+}
+.logo-wrapper img {
+	width: 100%;
+    cursor: pointer;
+}
+
+.search-input {
+	display: flex;
+	flex: 1;
+	align-items: center;
+	margin-right: 20px;
+}
+.search-input input {
+	flex: 1;
+	border-radius: 1px;
+	border: none;
+	padding: 10px 0px;
+	padding-left: 20px;
+    font-size: 14px;
+	outline: none;
+}
+
+.search {
+	margin-left: -35px;
+	color: #2874f0 !important;
+	font-weight: bold !important;
+	font-size: 25px !important;
+    cursor: pointer;
+}
+
+.header .login-button {
+	background-color: #ffffff;
+	padding: 7px 30px;
+	color: #2874f0 !important;
+	font-weight: 700;
+	font-size: 16px;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.header .seller{
+    margin-left: 30px;
+    font-weight: 450;
+    font-style: normal;
+    font-size: 16px;
+    color: #fff;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+.header .cart{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.header .cart .cart-text{
+    font-weight: 500;
+}

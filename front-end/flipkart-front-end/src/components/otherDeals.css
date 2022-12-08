@@ -1,0 +1,26 @@
+.otherDeals {
+	padding: 10px;
+	height: 250px;
+	margin-top: 10px;
+	padding-top: 0;
+}
+
+.otherDeals .card-wrapper {
+	height: 100%;
+	display: flex;
+}
+
+.otherDeals .card-wrapper .deal-card {
+	flex: 1;
+	height: 100%;
+	margin-right: 10px;
+}
+
+.otherDeals .card-wrapper .right-card {
+	margin-right: 0;
+}
+
+.otherDeals .card-wrapper .deal-card img {
+	height: 100%;
+	width: 100%;
+}
